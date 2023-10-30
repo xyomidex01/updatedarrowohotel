@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+.container{
+    background-color: green;
+    margin: 5% 38%;
+    height: 25pc;
+    padding: 3%;
+    width: 20pc;
+    border-radius: 20px;
+}
+.username{
+    padding: 5%;
+    margin-top: 8%;
+    width: 20pc;
+    border-radius: 5px;
+    border: none;
+}
+.pass{
+    padding: 5%;
+    margin-top: 8%;
+    width: 20pc;
+    border-radius: 5px;
+    border: none;
+}
+.checkbox{
+    margin-top: 8%;
+}
+.a{
+    margin:8% 14%; 
+    text-decoration: none;
+}
+.login{
+    padding: 5%;
+    margin-top: 8%;
+    width: 20pc;
+    border-radius: 5px;
+    border: none;
+}
+p{
+    margin: 8% 12%;
+}
+.b{
+    text-decoration: none;
+}
+:hover .login{
+    background-color: limegreen;
+    transition: 2s;
+}

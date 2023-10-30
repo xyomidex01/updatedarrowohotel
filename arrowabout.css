@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-style: normal;
+}
+.container{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 1.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container a:hover{
+    background-color: aqua;
+    padding: 5px;
+}
+.list{
+    list-style: none;
+    margin-left: 45%;
+    display: flex;
+    gap: 8rem;
+    color: wheat;
+    margin-top:0.5%; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.last{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+    color: white;
+    padding: 2%;
+    list-style: none;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    clear: both;
+}
+.container1{
+    background: rgb(206, 198, 198);
+    padding: 2%;
+    height: 21pc;
+    padding-left: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container2{
+    background: url(images/aboutoutdoor.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 22pc;
+    height:  17pc;
+    float: right;
+    margin: 0.1% 15%;
+    border-radius: 50%;
+    font-size: larger;
+} 
+.container3{
+background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/outdoor.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+height: 37pc;
+padding: 5% 7%;
+color: rgb(243, 239, 239);
+text-align: center;
+}   
+.container4a{
+    background: url(images/people1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 5.5pc;
+    height:  5.5pc;
+    float: left;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+.container4{
+    background: rgb(49, 19, 19);
+    height: 8pc;
+    margin: 5%;
+    color: rgb(206, 198, 198);
+    padding: 2% 3%;
+    border-radius: 8px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container5a{
+    background: url(images/people2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 5.5pc;
+    height:  5.5pc;
+    float: left;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+.container5{
+    background: rgb(49, 19, 19);
+    height: 8pc;
+    color: rgb(206, 198, 198);
+    padding: 2% 3%;
+    margin: 5%;
+    border-radius: 8px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.people1{
+    float: left;
+    margin: 2.3% 3%;
+}
+@media screen and(max-width: 600px){
+    .container, .container1, .container3, .container2, .container4, .container4a, .container5, .container5a, .container5a, .list, .people1 div {
+        width: 100%;
+    }
+    }
